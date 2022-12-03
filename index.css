@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  margin: 0 auto 0 auto;
+  /* width: 45%; */
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  line-height: 2;
+  
+}
+p{
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+}
+.top-cloud{
+  padding: 50px;
+  position: relative;
+  top:10px;
+  left: 280px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 230px;
+}
+.profile-img{
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+}
+h1, h2 {
+  color: #66BFBF;
+}
+h3, a{
+  color: #11999E;
+}
+.code-img{
+  height: 120px;
+  width: 120px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.about{
+  font-family: 'Montserrat', sans-serif;
+  width: 30%;
+  margin: 20px auto;
+  font-size: 20px;
+  color: #40514E;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 40px auto;
+}
+.me{
+  width: 70%;
+  margin: 10px auto;
+  
+}
+.tech{
+  font-weight: bold;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #119998);
+  background-image: -moz-linear-gradient(top, #11cdd4, #119998);
+  background-image: -ms-linear-gradient(top, #11cdd4, #119998);
+  background-image: -o-linear-gradient(top, #11cdd4, #119998);
+  background-image: linear-gradient(to bottom, #11cdd4, #119998);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc48d);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc48d);
+  text-decoration: none;
+}
+.bottom-container{
+  margin-top: 40px;
+  background-color: #11999E;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  padding-right: 35px;
+  color: #E4F9F5;
+  
+} 
+a:hover{
+  color: #40514E;
+}
+.name{
+  color:#EAF6F6;
+}             
